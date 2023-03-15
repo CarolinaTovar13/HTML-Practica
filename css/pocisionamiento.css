@@ -1,0 +1,29 @@
+.box{
+    display: inline-block; /*Controla estructura*/
+    width:100px;
+    height: 100px;
+    background: pink;
+    color: white;/*color de texto*/
+    
+}
+#two{ /*id va con #*/
+    position:static; /**/
+    top: 20px;
+    left: 20px;
+    background: pink;
+
+}
+
+#three{ 
+    position:relative; /**/
+    top: 20px;
+    left: 20px;
+    background: palevioletred;
+}
+
+.texto1{ /*clase va con .*/
+    width: 600px;
+    height:400px;
+    overflow:auto; /*De que manera se ve la página*/
+    padding-left: 150px;/*Espacio entre el contenido y su borde*/
+}

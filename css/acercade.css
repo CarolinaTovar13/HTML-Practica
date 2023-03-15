@@ -1,0 +1,48 @@
+*{font-family: 'Times New Roman', Times, serif; margin: 0%; } /* El asterisco es un selector universal es decir tomara todos los elementos de la página*/
+
+h2{font-family: Impact; color: blue;} /* Solo selecciona la etiqueta que estamos indicando en el sector*/
+
+.card{background-color: plum;}/*Un selector de tipo calse se manda a llamar con un punto seguido del nombre que le dimos*/
+
+/*Parte de section*/
+section{
+    width: 70%;
+    background-color: violet;
+    float: left;
+    margin: 10px;
+
+}
+/*Modificación de la parte del artículo*/
+/*Medidas absolutas: Pixeles son medidas que no van a cambiar en el proyecto px*/
+/*Medidas relativas: em=Hace referencia al tamaño actual de la página*/
+/*Medidas realtavias rem= se adapta a la fuente raíz del html*/
+/*Medidas flexibles: vw se calcula respecto al ancho del viewport (100vw= es igual al 100% de la pantalla)*/
+/*Medida flexible: vh se calcula respecto a la altura del viewport*/
+/*Medida flexible: vmin o vmax se calcula respecto al ancho del viewport*/
+
+article{
+    margin: 0.5em 3em 0em 0em ;
+    padding: 0.5em 2em;
+    background-color: cornflowerblue;
+    border: 10px solid black;
+    /*rop, right, bottom, left*/
+    /*Con dos elementos el primero afecta top y bottom, el segundo right y left. 
+    Con 4 si va de uno en uno*/
+    }
+
+ aside{
+    width: 25%;
+    float: left;
+    background-color: darkgoldenrod;
+
+ }   
+footer{
+    background-color: rgb(220, 192, 246);
+    width: auto;
+    height: 120px;
+    text-align: center;
+    padding: 45px;
+    margin: 10px;
+    clear: both;
+
+}

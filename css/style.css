@@ -1,0 +1,25 @@
+/*Menú*/
+nav {
+    background-color: palevioletred;
+    width:auto;
+    height: auto;
+    word-spacing: 30px;
+    text-align: center;
+    padding: 25px;
+    margin: 0%;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(245, 234, 234);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+}
+a:active{
+    background-color: rgb(241, 146, 211);
+    border-radius: 20px;
+    padding: 15px;
+
+}
